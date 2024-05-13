@@ -33,7 +33,7 @@ export const signIn = async ({ email, password }: signInProps) => {
       path: "/",
       httpOnly: true,
       sameSite: "strict",
-      secure: false,
+      secure: true,
     });
     return parseStringify(session);
   } catch (error) {
