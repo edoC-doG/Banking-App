@@ -138,7 +138,7 @@
   }
 
   .view-all-btn {
-    @apply text-14 rounded-lg border border-gray-300 px-4 py-2.5 font-semibold text-gray-700;
+    @apply text-14 rounded-lg border border-gray-300 px-4 py-2.5 font-semibold text-gray-700 hover:bg-blue-500 hover:text-white;
   }
 
   .recent-transactions {
@@ -378,5 +378,9 @@
 
   .sidebar-label {
     @apply text-16 font-semibold text-black-2 max-xl:hidden;
+  }
+
+  .add-bank-btn {
+    @apply rounded-lg px-2 py-1 hover:bg-blue-500;
   }
 }
